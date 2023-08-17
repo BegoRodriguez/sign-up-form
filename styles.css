@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+/* Variables to change colors easily */
+:root {
+  --imageText: whitesmoke;
+  --bodyText: black;
+}
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+root {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  color: black;
+  /*background: linear-gradient(#5757ea, rgb(255, 243, 247)); 
+  background-attachment: fixed; /*para que ocupe toda la pagina*/
+  
+
+#container {
+  width: 100%;
+  display: flex;
+}
+
+#image-container {
+  height: 100vh;
+  width: 40%;
+  background-image: url(./images/roan-lavery-lvy_VvdLmnA-unsplash-webx.jpg); 
+  background-size: cover;
+  background-repeat: none;
+  color: var(--imageText);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem; 
+} 
+
+#form-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
