@@ -13,7 +13,7 @@
     <div id="container">
       <div id="image-container">
         <div id="logo">Odin</div>
-        <div id="image-credit">Photo by Halie West on Unsplash</div></div>
+        <div id="image-credit">Photo by Roan Lavery on Unsplash</div></div>
       <div id="form-container">
         <div id="text">
           <p>This is not a real online service! You know you need something like this in your life to help you realize
@@ -21,25 +21,30 @@
           Sign up <em>now</em> to get started.</p>
           <p>You <em>know</em> you want to.</p>
         </div>
+      
         <div id="sign-up-form">
-          
           <form>
             <fieldset>
               <legend>Let's do this</legend>  <!-- Not sure if this is a legend but seems so -->
-              <div class="form-item">
-                <label for="firstName">First Name</label>
-                <input type="text" name="firstName" id="firstName">
+              <div class="form-fields">
+                <div class="form-item">
+                  <label for="firstName">First Name</label>
+                  <input type="text" name="firstName" id="firstName">
+                </div>
+                <div class="form-item">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" name="lastName" id="lastName">
+                </div>  
               </div>
-              <div class="form-item">
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" id="lastName">
-              </div>  
             </fieldset>
-            <button type="submit" class="btn btn-success">Create Account</button> <!-- This is the submit button so must stay inside the form -->
+          </div>
+          <div class="padded">
+            <button type="submit" class="btn btn-success ">Create Account</button> <!-- This is the submit button so must stay inside the form -->
+          </div>
           </form>
           
-        </div>
-        <p>Already have an account? Log in</p>
+        
+        <p class="padded">Already have an account? Log in</p>
         
 
       </div>
