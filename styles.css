@@ -28,7 +28,6 @@ body {
   background-attachment: fixed; /*para que ocupe toda la pagina*/
 }
 
-
 #container {
   width: 100%;
   display: flex;
@@ -98,11 +97,30 @@ body {
 
 input {
   width: 300px;
-  padding: 2px 5px;
+  padding: 5px 10px;
+  border: solid 1px #E5E7EB;
+  border-radius: 5px;
+}
+
+.error {
+  border: solid 2px rgb(140, 21, 21);
+}
+
+input:focus {
+  appearance: none;
+  border: solid 3px rgb(108, 108, 253);
 }
 
 label {
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+button {
+  padding: 10px;
+  color: white;
+  background-color: rgb(10, 93, 10);
+  border-radius: 12px;
+  border: none;
 }
