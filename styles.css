@@ -1,12 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 
 /* Variables to change colors easily */
 :root {
   --imageText: whitesmoke;
   --bodyText: black;
   --backgroundForm: white;
+  --greenImage:  #2f4e24;
 }
 
 * {
@@ -45,24 +47,36 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0; 
+  font-size: 0.8rem;
 } 
 
 #logo {
+  font-family: 'Odibee Sans', cursive;
   width: 100%;
   font-size: 6rem;
   margin: 6rem;
   background-color: rgba(0,0,0,0.5);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#logo img{
+  max-width: 75px;
+}
+
+a:link, a:hover, a:visited, a:active{
+  color:  var(--imageText);
 }
 
 #form-container {
-  /*width: 60%; 
-  padding: 2rem 4rem 2rem 2rem;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
- background-color:  var(--imageText);
+  background-color:  var(--imageText);
 }
 
 #sign-up-form {
@@ -109,6 +123,7 @@ input {
 input:focus {
   appearance: none;
   border: solid 3px rgb(108, 108, 253);
+  box-shadow: 5px 5px 5px lightgrey;
 }
 
 label {
@@ -117,10 +132,21 @@ label {
   font-weight: 500;
 }
 
-button {
+.button {
+  width: 200px;
   padding: 10px;
   color: white;
-  background-color: rgb(10, 93, 10);
-  border-radius: 12px;
+  background-color: var(--greenImage);
+  border-radius: 7px;
   border: none;
+  box-shadow: 5px 5px 5px lightgrey;
 }
+
+.bold {
+  color: var(--greenImage);
+  font-weight: 700;
+}
+
+
+
+
