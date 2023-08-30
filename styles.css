@@ -117,7 +117,7 @@ input {
 }
 
 .error {
-  border: solid 2px rgb(140, 21, 21);
+  border: solid 2px rgb(223, 38, 38);
 }
 
 input:focus {
